@@ -27,8 +27,6 @@ fails, and then moves to the next question. It keeps going until you type `bye`.
 - [Testing](#testing)
 - [Limitations](#limitations)
 - [Responsible use](#responsible-use)
-- [Contributing](#contributing)
-- [License](#license)
 
 ---
 
@@ -254,13 +252,3 @@ coding practice platform.
 **Privacy:** the AI runs locally through Ollama. The `.browser-profile/` folder holds your logged-in
 session, so never commit or share it (it is in `.gitignore`).
 
-## Contributing
-
-Issues and pull requests are welcome. For a new editor layout, please include the output of
-`python -m skill_assist diagnose` **with any personal information removed**, and a screenshot if you can.
-Run `python -m pytest` before opening a pull request.
-
-## License
-
-Add a `LICENSE` file before publishing (for example [MIT](https://choosealicense.com/licenses/mit/)) and
-update this section to match.
