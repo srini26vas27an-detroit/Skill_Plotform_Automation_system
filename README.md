@@ -232,7 +232,6 @@ local mock pages with real Ace, CodeMirror and textarea editors.
 - A small local model will get some questions wrong, especially harder ones. Always run your own tests.
 - Selectors differ between sites. A new layout may need `EDITOR_SELECTOR`, `NEXT_SELECTOR` or
   `SUCCESS_PATTERN` adjustments (use `diagnose`).
-- The compile check for C/C++ needs `gcc` / `g++`; Java and SQL are not syntax-checked.
 - CodeMirror 6 support is best effort.
 - Submission is intentionally never automated.
 
